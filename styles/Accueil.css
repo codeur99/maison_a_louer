@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    background-color: #25d366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.car {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.car img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.car h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+.whatsapp-link {
+    display: block;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.whatsapp-link:hover {
+    background-color: #128c7e;
+}
+
+
